@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03217D38E3D5D72F683167125112C080 /* DTError.h in Headers */ = {isa = PBXBuildFile; fileRef = BE969CB0C2A6788DAEF5506A27BB3C0F /* DTError.h */; };
+		082D94E13F09363541B4EF55C1C6EA34 /* DTTimePeriodCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B72AAD39C50964982C688DB7DA36FC5 /* DTTimePeriodCollection.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		16246F711C24F37C4768D0D58EBC8EFE /* DTTimePeriodGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = D19D4E1F9439F487F9519D8562179929 /* DTTimePeriodGroup.h */; };
+		3CB2F70CD8836D8E14677728F06A4F92 /* DTTimePeriod.m in Sources */ = {isa = PBXBuildFile; fileRef = 56BEE1E1C8726150EB64D9922E52145E /* DTTimePeriod.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		750925A2BC0B43692A68891FE8998277 /* Pods-Makestagram-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB697DB71D70C4910196D712FBAAE98D /* Pods-Makestagram-dummy.m */; };
+		7FEDD73B51984BBBF168D55DA572B8BE /* DTTimePeriodChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD20B0B9F4D986B37C92E52F172C437 /* DTTimePeriodChain.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		81E80C30C6EA08E602C557820D17A39E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B45AAF3B6E8377EDBAB448F54694E84F /* Foundation.framework */; };
+		8F403EC9674CE7D63C27BEF531032B86 /* NSDate+DateTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F05057B04041045268BE8242EADAF62 /* NSDate+DateTools.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		94F56B21DF4EF3DB861BF3FDC98A6B51 /* NSDate+DateTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 80135EAA954235BEAF83C4437DF5D16A /* NSDate+DateTools.h */; };
+		A40A0489AFA82F1409A43FB9B9925AE9 /* DTTimePeriodGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = AE86323DC03F63FE7376ADA7BADE1DE6 /* DTTimePeriodGroup.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AE38B9C90D2DD279264FEFFB8FB160CC /* DateTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B1AB2A9053FD078AD21D4D97112364B /* DateTools.h */; };
+		C458A47431809461041CC6F4716BC94D /* DateTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1519CBD64BC6E72139B5EA8444F9608 /* DateTools-dummy.m */; };
+		C5F7E5D611B944BB65F6DC0798532984 /* DTError.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB11D3E7ECA017751E2FFDA903DAB13 /* DTError.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CFB43C7F8877F8C47453EFE3B756E073 /* DTTimePeriodChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A17F2789D666AAD7DC60C9B16ED75A5 /* DTTimePeriodChain.h */; };
+		D56120466244AF374E34231C01B3873B /* DTTimePeriodCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A2F22AD8595AEADF97DA8874B6E4D05 /* DTTimePeriodCollection.h */; };
+		D9AA719FB9F296262D5A66D084A378B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B45AAF3B6E8377EDBAB448F54694E84F /* Foundation.framework */; };
+		DD41615FF6684C5D65C154C60CB6716F /* DTTimePeriod.h in Headers */ = {isa = PBXBuildFile; fileRef = 7841D3E65B7A719B7A3FB07D290F9F21 /* DTTimePeriod.h */; };
+		FF80B4FEA455AC48F0EC55AF82D32938 /* DTConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FA2E49479CC4DC324E279DAFDD504C /* DTConstants.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		312FF1A45AC2183CC843CDF2FCBD5F23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A47E9F34DB9849CA1F0EF95B6B9262BD;
+			remoteInfo = DateTools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B72AAD39C50964982C688DB7DA36FC5 /* DTTimePeriodCollection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTTimePeriodCollection.m; path = DateTools/DTTimePeriodCollection.m; sourceTree = "<group>"; };
+		2B1AB2A9053FD078AD21D4D97112364B /* DateTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DateTools.h; path = DateTools/DateTools.h; sourceTree = "<group>"; };
+		2BA501E2B82C0146889453699B4FD096 /* DateTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DateTools-prefix.pch"; sourceTree = "<group>"; };
+		2BD20B0B9F4D986B37C92E52F172C437 /* DTTimePeriodChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTTimePeriodChain.m; path = DateTools/DTTimePeriodChain.m; sourceTree = "<group>"; };
+		2CB43F3FB321FA08E4F39220883CD9F1 /* DateTools-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "DateTools-Private.xcconfig"; sourceTree = "<group>"; };
+		3795109A8743B1B7F297C1091E8CB3B3 /* Pods-Makestagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Makestagram.debug.xcconfig"; sourceTree = "<group>"; };
+		4A17F2789D666AAD7DC60C9B16ED75A5 /* DTTimePeriodChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTTimePeriodChain.h; path = DateTools/DTTimePeriodChain.h; sourceTree = "<group>"; };
+		4A2F22AD8595AEADF97DA8874B6E4D05 /* DTTimePeriodCollection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTTimePeriodCollection.h; path = DateTools/DTTimePeriodCollection.h; sourceTree = "<group>"; };
+		52FA2E49479CC4DC324E279DAFDD504C /* DTConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTConstants.h; path = DateTools/DTConstants.h; sourceTree = "<group>"; };
+		56BEE1E1C8726150EB64D9922E52145E /* DTTimePeriod.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTTimePeriod.m; path = DateTools/DTTimePeriod.m; sourceTree = "<group>"; };
+		6BB11D3E7ECA017751E2FFDA903DAB13 /* DTError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTError.m; path = DateTools/DTError.m; sourceTree = "<group>"; };
+		77A0A55B920B3361CA036A2A0ED44941 /* libPods-Makestagram.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Makestagram.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7841D3E65B7A719B7A3FB07D290F9F21 /* DTTimePeriod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTTimePeriod.h; path = DateTools/DTTimePeriod.h; sourceTree = "<group>"; };
+		7917607742A6BABFC36F4F8C0AB92AF5 /* DateTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DateTools.xcconfig; sourceTree = "<group>"; };
+		80135EAA954235BEAF83C4437DF5D16A /* NSDate+DateTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+DateTools.h"; path = "DateTools/NSDate+DateTools.h"; sourceTree = "<group>"; };
+		860927CCCD7C38F7EBE1C5BEBC4E4F1F /* Pods-Makestagram-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Makestagram-acknowledgements.plist"; sourceTree = "<group>"; };
+		8C95A6BA0BEC9189EE76C194926C44E3 /* Pods-Makestagram-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Makestagram-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8F05057B04041045268BE8242EADAF62 /* NSDate+DateTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+DateTools.m"; path = "DateTools/NSDate+DateTools.m"; sourceTree = "<group>"; };
+		AB697DB71D70C4910196D712FBAAE98D /* Pods-Makestagram-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Makestagram-dummy.m"; sourceTree = "<group>"; };
+		AE86323DC03F63FE7376ADA7BADE1DE6 /* DTTimePeriodGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTTimePeriodGroup.m; path = DateTools/DTTimePeriodGroup.m; sourceTree = "<group>"; };
+		AEFA846AA46124D13FF7B4529D22A99D /* Pods-Makestagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Makestagram.release.xcconfig"; sourceTree = "<group>"; };
+		B45AAF3B6E8377EDBAB448F54694E84F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BE969CB0C2A6788DAEF5506A27BB3C0F /* DTError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTError.h; path = DateTools/DTError.h; sourceTree = "<group>"; };
+		BEB0AB4EE800EC61AE055D07030438B2 /* DateTools.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = DateTools.bundle; path = DateTools/DateTools.bundle; sourceTree = "<group>"; };
+		D1519CBD64BC6E72139B5EA8444F9608 /* DateTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DateTools-dummy.m"; sourceTree = "<group>"; };
+		D19D4E1F9439F487F9519D8562179929 /* DTTimePeriodGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTTimePeriodGroup.h; path = DateTools/DTTimePeriodGroup.h; sourceTree = "<group>"; };
+		D456826B604BC802C8A10311C238E241 /* libDateTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDateTools.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0AB483B721AAC530AB6B0D9EF25A00E /* Pods-Makestagram-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Makestagram-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2916553C26AF4F6872AD406CC7D8F867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9AA719FB9F296262D5A66D084A378B9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB0805FEEF81015A9E05964A722B394 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E80C30C6EA08E602C557820D17A39E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C0F7F913BDC6E008802BD1A9FBEC5DD /* DateTools */ = {
+			isa = PBXGroup;
+			children = (
+				52FA2E49479CC4DC324E279DAFDD504C /* DTConstants.h */,
+				BE969CB0C2A6788DAEF5506A27BB3C0F /* DTError.h */,
+				6BB11D3E7ECA017751E2FFDA903DAB13 /* DTError.m */,
+				7841D3E65B7A719B7A3FB07D290F9F21 /* DTTimePeriod.h */,
+				56BEE1E1C8726150EB64D9922E52145E /* DTTimePeriod.m */,
+				4A17F2789D666AAD7DC60C9B16ED75A5 /* DTTimePeriodChain.h */,
+				2BD20B0B9F4D986B37C92E52F172C437 /* DTTimePeriodChain.m */,
+				4A2F22AD8595AEADF97DA8874B6E4D05 /* DTTimePeriodCollection.h */,
+				1B72AAD39C50964982C688DB7DA36FC5 /* DTTimePeriodCollection.m */,
+				D19D4E1F9439F487F9519D8562179929 /* DTTimePeriodGroup.h */,
+				AE86323DC03F63FE7376ADA7BADE1DE6 /* DTTimePeriodGroup.m */,
+				2B1AB2A9053FD078AD21D4D97112364B /* DateTools.h */,
+				80135EAA954235BEAF83C4437DF5D16A /* NSDate+DateTools.h */,
+				8F05057B04041045268BE8242EADAF62 /* NSDate+DateTools.m */,
+				49F5E61F402305F4DB00421BFA9AFCD1 /* Resources */,
+				AAA90CE6557039FFCA40DB30B6DEE673 /* Support Files */,
+			);
+			path = DateTools;
+			sourceTree = "<group>";
+		};
+		20C7A65526F6E77F291459F07A87D425 /* Pods-Makestagram */ = {
+			isa = PBXGroup;
+			children = (
+				8C95A6BA0BEC9189EE76C194926C44E3 /* Pods-Makestagram-acknowledgements.markdown */,
+				860927CCCD7C38F7EBE1C5BEBC4E4F1F /* Pods-Makestagram-acknowledgements.plist */,
+				AB697DB71D70C4910196D712FBAAE98D /* Pods-Makestagram-dummy.m */,
+				E0AB483B721AAC530AB6B0D9EF25A00E /* Pods-Makestagram-resources.sh */,
+				3795109A8743B1B7F297C1091E8CB3B3 /* Pods-Makestagram.debug.xcconfig */,
+				AEFA846AA46124D13FF7B4529D22A99D /* Pods-Makestagram.release.xcconfig */,
+			);
+			name = "Pods-Makestagram";
+			path = "Target Support Files/Pods-Makestagram";
+			sourceTree = "<group>";
+		};
+		4813DAB92B13608AA78A058C739A389B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C0F7F913BDC6E008802BD1A9FBEC5DD /* DateTools */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		49F5E61F402305F4DB00421BFA9AFCD1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BEB0AB4EE800EC61AE055D07030438B2 /* DateTools.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B45AAF3B6E8377EDBAB448F54694E84F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				4813DAB92B13608AA78A058C739A389B /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				F1D498923D20939804EED566E4535AE2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AAA90CE6557039FFCA40DB30B6DEE673 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7917607742A6BABFC36F4F8C0AB92AF5 /* DateTools.xcconfig */,
+				2CB43F3FB321FA08E4F39220883CD9F1 /* DateTools-Private.xcconfig */,
+				D1519CBD64BC6E72139B5EA8444F9608 /* DateTools-dummy.m */,
+				2BA501E2B82C0146889453699B4FD096 /* DateTools-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DateTools";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D456826B604BC802C8A10311C238E241 /* libDateTools.a */,
+				77A0A55B920B3361CA036A2A0ED44941 /* libPods-Makestagram.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1D498923D20939804EED566E4535AE2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				20C7A65526F6E77F291459F07A87D425 /* Pods-Makestagram */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0D9DAD7EDA7F3FE6036082223D32F2F1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF80B4FEA455AC48F0EC55AF82D32938 /* DTConstants.h in Headers */,
+				03217D38E3D5D72F683167125112C080 /* DTError.h in Headers */,
+				DD41615FF6684C5D65C154C60CB6716F /* DTTimePeriod.h in Headers */,
+				CFB43C7F8877F8C47453EFE3B756E073 /* DTTimePeriodChain.h in Headers */,
+				D56120466244AF374E34231C01B3873B /* DTTimePeriodCollection.h in Headers */,
+				16246F711C24F37C4768D0D58EBC8EFE /* DTTimePeriodGroup.h in Headers */,
+				AE38B9C90D2DD279264FEFFB8FB160CC /* DateTools.h in Headers */,
+				94F56B21DF4EF3DB861BF3FDC98A6B51 /* NSDate+DateTools.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3A2B0F04A558A944AF65F4605B93818F /* Pods-Makestagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8387071960FA6E099DDE27556324E527 /* Build configuration list for PBXNativeTarget "Pods-Makestagram" */;
+			buildPhases = (
+				29A8493C409028C2254CBFD915D4D656 /* Sources */,
+				ABB0805FEEF81015A9E05964A722B394 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7269DD7A620D93D82A84EC35759FEE2 /* PBXTargetDependency */,
+			);
+			name = "Pods-Makestagram";
+			productName = "Pods-Makestagram";
+			productReference = 77A0A55B920B3361CA036A2A0ED44941 /* libPods-Makestagram.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A47E9F34DB9849CA1F0EF95B6B9262BD /* DateTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6BFF6428232A222693ABF1284245AAE /* Build configuration list for PBXNativeTarget "DateTools" */;
+			buildPhases = (
+				66F2B4FD4BCC3C0D65D76D47BC050619 /* Sources */,
+				2916553C26AF4F6872AD406CC7D8F867 /* Frameworks */,
+				0D9DAD7EDA7F3FE6036082223D32F2F1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DateTools;
+			productName = DateTools;
+			productReference = D456826B604BC802C8A10311C238E241 /* libDateTools.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A47E9F34DB9849CA1F0EF95B6B9262BD /* DateTools */,
+				3A2B0F04A558A944AF65F4605B93818F /* Pods-Makestagram */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29A8493C409028C2254CBFD915D4D656 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				750925A2BC0B43692A68891FE8998277 /* Pods-Makestagram-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F2B4FD4BCC3C0D65D76D47BC050619 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5F7E5D611B944BB65F6DC0798532984 /* DTError.m in Sources */,
+				3CB2F70CD8836D8E14677728F06A4F92 /* DTTimePeriod.m in Sources */,
+				7FEDD73B51984BBBF168D55DA572B8BE /* DTTimePeriodChain.m in Sources */,
+				082D94E13F09363541B4EF55C1C6EA34 /* DTTimePeriodCollection.m in Sources */,
+				A40A0489AFA82F1409A43FB9B9925AE9 /* DTTimePeriodGroup.m in Sources */,
+				C458A47431809461041CC6F4716BC94D /* DateTools-dummy.m in Sources */,
+				8F403EC9674CE7D63C27BEF531032B86 /* NSDate+DateTools.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7269DD7A620D93D82A84EC35759FEE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DateTools;
+			target = A47E9F34DB9849CA1F0EF95B6B9262BD /* DateTools */;
+			targetProxy = 312FF1A45AC2183CC843CDF2FCBD5F23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5326C95F8D458FB23739EA50D05755FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3795109A8743B1B7F297C1091E8CB3B3 /* Pods-Makestagram.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		57AA6F602A82B649610EE345811EA8B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CB43F3FB321FA08E4F39220883CD9F1 /* DateTools-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DateTools/DateTools-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		674B56629B218B5A632C4099CA744B38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CB43F3FB321FA08E4F39220883CD9F1 /* DateTools-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DateTools/DateTools-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B51007A571816C7314F123E729F55477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEFA846AA46124D13FF7B4529D22A99D /* Pods-Makestagram.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8387071960FA6E099DDE27556324E527 /* Build configuration list for PBXNativeTarget "Pods-Makestagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5326C95F8D458FB23739EA50D05755FD /* Debug */,
+				B51007A571816C7314F123E729F55477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6BFF6428232A222693ABF1284245AAE /* Build configuration list for PBXNativeTarget "DateTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57AA6F602A82B649610EE345811EA8B0 /* Debug */,
+				674B56629B218B5A632C4099CA744B38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
